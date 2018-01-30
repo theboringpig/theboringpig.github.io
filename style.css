@@ -126,7 +126,7 @@ a {
 	text-align: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 888px) {
 	.list-item {
 		height: 23em;
 	}
