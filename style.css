@@ -75,6 +75,7 @@ a {
 	height: 23em;
 	margin: 1em;
 }
+
 .item-img {
 	float: left;
 	width: 60%;
@@ -118,10 +119,31 @@ a {
 
 .footer {
 	border-top: #ddd 1px solid;
-	margin: 3em 0;
+	padding: 13px 0;
 }
 
 .footer p{
 	text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+	.list-item {
+		height: 23em;
+	}
+	.item-img {
+		width: 100%;
+		height: 60%;
+	}
+	.item-body {
+		width: 100%;
+	}
+	.nav li img{
+		width: 50%;
+		height: auto;
+	}
+	.footer{
+		border: none;
+	}
+}
+
 
