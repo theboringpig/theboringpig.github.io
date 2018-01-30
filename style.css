@@ -1,0 +1,127 @@
+body {
+	color: #444;
+	font-size: 14px;
+	font-family: "Menlo", "Meslo LG", monospace;
+	font-weight: 400;
+	line-height: 1.725;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 66em;
+}
+
+div,span,a,ul,li,p,img,button,input {
+	transition-property: all;
+	transition-duration: 300ms;
+	transition-timing-function: linear;
+	-moz-transition-property: all;
+	-moz-transition-duration: 300ms;
+	-moz-transition-timing-function: linear;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 300ms;
+	-webkit-transition-timing-function: linear;
+	-o-transition-property: all;
+	-o-transition-duration: 300ms;
+	-o-transition-timing-function: linear;
+}
+
+p {
+	text-align: justify;
+}
+
+a {
+	color: #444;
+	text-decoration: none;
+}
+
+.nav {
+	width: 100%;
+	text-align: center;
+	font-size: 120%;
+	padding: 1em 0;
+}
+.nav img {
+	height: 3em;
+	opacity: 0.73;
+	margin: 0 1em;
+}
+.nav ul {
+	display:inline-block;
+	margin: 0;
+	padding: 0.5em;
+}
+.nav li {
+	list-style: none;
+	float: left;
+	font-weight: 600;
+	line-height: 3em;
+}
+.nav li a{
+	padding: 1em;
+}
+
+.nav li a:hover{
+	color: #000;
+}
+
+.info {
+	border: #ddd solid;
+	border-width: 1px 0;
+}
+.info p {
+	font-size: 90%;
+	text-align: center;
+}
+.list-item {
+	height: 23em;
+	margin: 1em;
+}
+.item-img {
+	float: left;
+	width: 60%;
+	height: 100%;
+	background: #FFF;
+	overflow: hidden;
+	text-align: center;
+}
+
+.item-img img{
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.item-body {
+	float: left;
+	width: 40%;
+	height: 100%;
+	text-align: center;
+}
+.item-body h2 {
+	padding: 0 8%;
+	padding-top: 10%;
+}
+.item-body p {
+	padding: 0 8%;
+	padding-bottom: 6%;
+	min-height: 23%;
+	text-align: center;
+}
+.item-body a.btn {
+	padding: 4% 18%;
+	background: #444;
+	color: #FFF;	
+}
+.item-body a.btn:hover {
+	background: #000;
+}
+
+.footer {
+	border-top: #ddd 1px solid;
+	margin: 3em 0;
+}
+
+.footer p{
+	text-align: center;
+}
+
